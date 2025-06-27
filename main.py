@@ -11,5 +11,13 @@ def median(input):
 
     return (input[mid] + input[mid - 1]) / 2
 
+def mean(input):
+    sum = 0
+    for index in input:
+        sum += index
+    return sum / len(input)
+
 my_list = [0, 1, 2, 3, 4, 5]
-print(median(my_list))
+print("list: ", my_list)
+print("Mean: ", mean(my_list))
+print("Median: ", median(my_list))
