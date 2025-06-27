@@ -1,1 +1,1 @@
-print("Hello, from local!")
+print("Hello, new version!")
